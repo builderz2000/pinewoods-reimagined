@@ -27,11 +27,11 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section className="py-20 px-6 bg-gradient-to-b from-background to-secondary/30">
+      <section className="py-20 px-6 bg-background">
         <div className="container mx-auto max-w-4xl">
-          <Card className="p-12 bg-card/80 backdrop-blur-sm border-2 border-accent/30 text-center">
+          <Card className="p-12 bg-card/80 backdrop-blur-sm border border-accent/50 text-center">
             <div className="space-y-6">
-              <h2 className="text-sm font-semibold text-accent tracking-[0.2em] uppercase">
+              <h2 className="text-sm font-semibold text-accent tracking-[0.3em] uppercase">
                 About
               </h2>
               <h3 className="text-2xl md:text-3xl font-light text-foreground tracking-wide">
@@ -42,7 +42,7 @@ const Index = () => {
                 looking to acquire a single great company and operate it for a very long time.
               </p>
               <div className="pt-4">
-                <Button asChild variant="outline" className="border-accent text-accent hover:bg-accent hover:text-accent-foreground">
+                <Button asChild variant="ghost" className="text-accent hover:text-accent-foreground hover:bg-accent/20">
                   <Link to="/founder-bio">&gt;&gt; Founder Bio</Link>
                 </Button>
               </div>
@@ -51,8 +51,19 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Landscape Image Section */}
+      <section className="py-0">
+        <div className="w-full">
+          <img 
+            src={heroLandscape} 
+            alt="Landscape view" 
+            className="w-full h-[400px] md:h-[500px] object-cover"
+          />
+        </div>
+      </section>
+
       {/* Different Approach Section */}
-      <section className="py-20 px-6 bg-gradient-to-b from-secondary/30 to-background">
+      <section className="py-20 px-6 bg-background">
         <div className="container mx-auto max-w-6xl text-center">
           <h2 className="text-3xl md:text-4xl font-light text-foreground mb-8 tracking-wide">
             A DIFFERENT APPROACH
