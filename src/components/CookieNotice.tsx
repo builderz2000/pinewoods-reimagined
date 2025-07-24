@@ -29,7 +29,7 @@ const CookieNotice = () => {
         <p className="text-sm text-accent-foreground">
           We use cookies on our website to see how you interact with it. By accepting, you agree to our use of such cookies. 
           To manage your cookies and learn more about our use of cookies click "Cookie Settings".{" "}
-          <a href="#" className="underline hover:no-underline">Privacy Policy</a>
+          <a href="https://www.iubenda.com/privacy-policy/97469761" className="underline hover:no-underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
         </p>
         
         <div className="flex gap-2 shrink-0">
