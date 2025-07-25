@@ -39,8 +39,8 @@ const Contact = () => {
             <Card className="p-8 bg-card/80 backdrop-blur-sm border border-border/50 text-center hover:shadow-lg transition-all duration-300">
               <Phone className="w-12 h-12 text-accent mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-foreground mb-2">Phone</h3>
-              <a href="tel:+15551234567" className="text-muted-foreground hover:text-accent transition-colors">
-                (555) 123-4567
+              <a href="tel:+16307712015" className="text-muted-foreground hover:text-accent transition-colors">
+                (630) 771-2015
               </a>
             </Card>
             
@@ -48,8 +48,8 @@ const Contact = () => {
               <MapPin className="w-12 h-12 text-accent mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-foreground mb-2">Location</h3>
               <p className="text-muted-foreground">
-                123 Business Avenue<br />
-                Chicago, IL 60601<br />
+                1600 Golf Road Suite 1200<br />
+                Rolling Meadows, IL 60008<br />
                 United States
               </p>
             </Card>

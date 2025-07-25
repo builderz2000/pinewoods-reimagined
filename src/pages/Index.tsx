@@ -58,7 +58,7 @@ const Index = () => {
           <img 
             src={heroLandscape} 
             alt="Landscape view" 
-            className="w-full h-[400px] md:h-[500px] object-cover"
+            className="w-full h-[300px] md:h-[400px] lg:h-[500px] object-cover"
           />
         </div>
       </section>

@@ -20,8 +20,8 @@ const Footer = () => {
               <Phone className="w-5 h-5 text-accent" />
               <span className="font-semibold">Phone</span>
             </div>
-            <a href="tel:+15551234567" className="text-primary-foreground/80 hover:text-accent transition-colors">
-              (555) 123-4567
+            <a href="tel:+16307712015" className="text-primary-foreground/80 hover:text-accent transition-colors">
+              (630) 771-2015
             </a>
           </div>
           
@@ -31,8 +31,8 @@ const Footer = () => {
               <span className="font-semibold">Location</span>
             </div>
             <span className="text-primary-foreground/80">
-              123 Business Avenue<br />
-              Chicago, IL 60601<br />
+              1600 Golf Road Suite 1200<br />
+              Rolling Meadows, IL 60008<br />
               United States
             </span>
           </div>
