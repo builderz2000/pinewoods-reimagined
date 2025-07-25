@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
 import CookieNotice from "@/components/CookieNotice";
+import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -80,6 +81,8 @@ const Index = () => {
           </Button>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 };

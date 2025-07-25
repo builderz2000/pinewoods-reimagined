@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
 import CookieNotice from "@/components/CookieNotice";
+import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin } from "lucide-react";
@@ -30,19 +31,27 @@ const Contact = () => {
             <Card className="p-8 bg-card/80 backdrop-blur-sm border border-border/50 text-center hover:shadow-lg transition-all duration-300">
               <Mail className="w-12 h-12 text-accent mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-foreground mb-2">Email</h3>
-              <p className="text-muted-foreground">dan@pinewoodsmanagement.com</p>
+              <a href="mailto:dan@pinewoodsmanagement.com" className="text-muted-foreground hover:text-accent transition-colors">
+                dan@pinewoodsmanagement.com
+              </a>
             </Card>
             
             <Card className="p-8 bg-card/80 backdrop-blur-sm border border-border/50 text-center hover:shadow-lg transition-all duration-300">
               <Phone className="w-12 h-12 text-accent mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-foreground mb-2">Phone</h3>
-              <p className="text-muted-foreground">(555) 123-4567</p>
+              <a href="tel:+15551234567" className="text-muted-foreground hover:text-accent transition-colors">
+                (555) 123-4567
+              </a>
             </Card>
             
             <Card className="p-8 bg-card/80 backdrop-blur-sm border border-border/50 text-center hover:shadow-lg transition-all duration-300">
               <MapPin className="w-12 h-12 text-accent mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-foreground mb-2">Location</h3>
-              <p className="text-muted-foreground">Midwest, United States</p>
+              <p className="text-muted-foreground">
+                123 Business Avenue<br />
+                Chicago, IL 60601<br />
+                United States
+              </p>
             </Card>
           </div>
           
@@ -66,6 +75,8 @@ const Contact = () => {
           </Card>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 };

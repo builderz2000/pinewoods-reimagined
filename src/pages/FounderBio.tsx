@@ -1,5 +1,7 @@
 import Navigation from "@/components/Navigation";
 import CookieNotice from "@/components/CookieNotice";
+import Footer from "@/components/Footer";
+import { Card } from "@/components/ui/card";
 import founderPhoto from "@/assets/founder-photo.jpg";
 import familyPhoto from "@/assets/family-photo.jpg";
 
@@ -94,6 +96,8 @@ const FounderBio = () => {
           </h3>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 };

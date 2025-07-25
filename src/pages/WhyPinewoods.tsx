@@ -1,5 +1,7 @@
 import Navigation from "@/components/Navigation";
 import CookieNotice from "@/components/CookieNotice";
+import Footer from "@/components/Footer";
+import { Card } from "@/components/ui/card";
 import legacyImage from "@/assets/legacy-image.jpg";
 
 const WhyPinewoods = () => {
@@ -125,6 +127,8 @@ const WhyPinewoods = () => {
           />
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 };
