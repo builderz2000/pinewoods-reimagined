@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import heroLandscape from "@/assets/hero-landscape.jpg";
+const heroLandscape = "/lovable-uploads/46a99dc9-d8e8-4e93-a7f0-c3fd425196c7.png";
 
 const Index = () => {
   return (

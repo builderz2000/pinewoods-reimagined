@@ -2,8 +2,8 @@ import Navigation from "@/components/Navigation";
 import CookieNotice from "@/components/CookieNotice";
 import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
-import founderPhoto from "@/assets/founder-photo.jpg";
-import familyPhoto from "@/assets/family-photo.jpg";
+const founderPhoto = "/lovable-uploads/a84808f9-e671-4cd2-b01d-af117a6192b9.png";
+const familyPhoto = "/lovable-uploads/d47f916c-dfdd-4e69-b256-5452353b5f3e.png";
 
 const FounderBio = () => {
   return (
