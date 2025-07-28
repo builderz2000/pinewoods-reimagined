@@ -3,7 +3,7 @@ import CookieNotice from "@/components/CookieNotice";
 import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 const founderPhoto = "/lovable-uploads/a84808f9-e671-4cd2-b01d-af117a6192b9.png";
-const familyPhoto = "/lovable-uploads/d47f916c-dfdd-4e69-b256-5452353b5f3e.png";
+const familyPhoto = "/lovable-uploads/33b31de1-03e9-4f1d-a1ef-0e316cbeb860.png";
 
 const FounderBio = () => {
   return (
