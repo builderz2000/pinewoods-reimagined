@@ -20,8 +20,8 @@ const Footer = () => {
               <Phone className="w-5 h-5 text-accent" />
               <span className="font-semibold">Phone</span>
             </div>
-            <a href="tel:+16307712015" className="text-primary-foreground/80 hover:text-accent transition-colors">
-              (630) 771-2015
+            <a href="tel:+16148042078" className="text-primary-foreground/80 hover:text-accent transition-colors">
+              (614) 804-2078
             </a>
           </div>
           
@@ -31,8 +31,8 @@ const Footer = () => {
               <span className="font-semibold">Location</span>
             </div>
             <span className="text-primary-foreground/80">
-              1600 Golf Road Suite 1200<br />
-              Rolling Meadows, IL 60008<br />
+              1953 N Clybourn Ave Suite R367<br />
+              Chicago, IL 60614<br />
               United States
             </span>
           </div>
@@ -40,7 +40,7 @@ const Footer = () => {
         
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60 text-sm">
-            © {new Date().getFullYear()} Pinewoods Management. All rights reserved.
+            © {new Date().getFullYear()} Pinewoods Management, LLC. All rights reserved.
           </p>
         </div>
       </div>
