@@ -22,9 +22,13 @@ export default defineConfig(({ mode }) => ({
   build: {
     outDir: "dist",
     assetsDir: "assets",
+    sourcemap: false,
     rollupOptions: {
       output: {
-        manualChunks: undefined, // Keep everything in one chunk for simplicity
+        manualChunks: undefined, // Single chunk for better compatibility
+        assetFileNames: 'assets/[name].[hash].[ext]',
+        chunkFileNames: 'assets/[name].[hash].js',
+        entryFileNames: 'assets/[name].[hash].js',
       },
     },
   },

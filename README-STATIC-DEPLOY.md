@@ -1,22 +1,20 @@
 # Pinewoods Management - Static Site Deployment
 
-This project has been configured to generate a fully static site suitable for GitHub Pages and other static hosting services.
+This project generates a fully static site suitable for GitHub Pages and other static hosting services.
 
 ## 🚀 Building the Static Site
 
-1. **Build the React app:**
-   ```bash
-   npm run build
-   ```
+**Single command to build everything:**
+```bash
+npm run build
+```
 
-2. **Generate static pages:**
-   ```bash
-   node generate-static-pages.js
-   ```
-
-   This creates individual HTML files for each route:
+This automatically:
+1. Builds the React app with Vite
+2. Generates static HTML files for each route
+3. Creates individual HTML files:
    - `index.html` (Homepage)
-   - `founder-bio.html` (Founder Bio page)
+   - `founder-bio.html` (Founder Bio page)  
    - `why-pinewoods.html` (Why Pinewoods page)
    - `contact.html` (Contact page)
 
